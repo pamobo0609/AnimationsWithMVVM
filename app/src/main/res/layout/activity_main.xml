@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="mViewModel"
+            type="com.pamobo0609.demo.viewmodel.MainActivityViewModel" />
+    </data>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        tools:context="com.pamobo0609.demo.view.activity.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_horizontal_margin">
+
+            <Button
+                android:id="@+id/btn_collapsing_example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="@{mViewModel::goToCollapsingToolbar}"
+                android:text="@string/btn_collapsing_toolbar_example" />
+
+            <Button
+                android:id="@+id/btn_collapsing_with_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_collapsing_example"
+                android:onClick="@{mViewModel::goToCollapsingTabs}"
+                android:text="@string/btn_collapsing_toolbar_with_tabs_example" />
+
+            <Button
+                android:id="@+id/btn_swipe_to_dismiss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_collapsing_with_tabs"
+                android:text="@string/btn_swipe_to_dismiss_example" />
+        </RelativeLayout>
+    </android.support.design.widget.CoordinatorLayout>
+</layout>

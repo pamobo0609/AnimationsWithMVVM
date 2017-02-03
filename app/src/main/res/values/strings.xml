@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android animations</string>
+    <string name="btn_collapsing_toolbar_example">Collapsing toolbar example</string>
+    <string name="btn_collapsing_toolbar_with_tabs_example">Collapsing toolbar with tabs example</string>
+    <string name="btn_swipe_to_dismiss_example">Swipe to dismiss example</string>
+    <string name="msg_tap_a_button">Tap a button to go to the demo!</string>
+    <string name="msg_just_the_background_for_the_expanded_toolbar">Just the background for the expanded toolbar.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed nisi augue. Donec efficitur ac arcu at fermentum. Morbi justo nisi, egestas in purus at, auctor efficitur lectus. Nunc a viverra massa. Nullam velit arcu, suscipit quis posuere eu, porta sed enim. Sed placerat ipsum non felis dapibus, et bibendum dui aliquam. Phasellus fermentum vel elit in blandit. Aenean molestie ullamcorper velit sit amet tempor.  Donec consectetur velit nec libero venenatis pharetra. Morbi lobortis luctus porta. Nullam consequat aliquet pellentesque. Praesent eu justo lacinia, ornare libero non, ultricies tortor. In a nisi et nibh imperdiet malesuada vitae gravida risus. Vestibulum tempus orci convallis velit posuere, semper dapibus purus dapibus. Quisque feugiat aliquam nunc, eu fermentum risus tincidunt ut. Suspendisse sollicitudin arcu at tellus luctus ornare. Nunc ac lacus et libero molestie blandit.  Nam sagittis nec felis a congue. Curabitur maximus feugiat lorem id feugiat. Donec et ex at risus posuere imperdiet. Sed et blandit tortor. Phasellus convallis libero eget massa dapibus, at mattis ex vestibulum. Nullam vitae neque ultrices, porta lorem in, malesuada risus. Praesent nisi magna, lobortis sed pulvinar eu, aliquet quis turpis. Mauris et mollis orci, nec feugiat orci. Mauris in sem vitae nisi vulputate molestie. Maecenas nulla nisl, dapibus vitae sollicitudin nec, gravida a tortor. Morbi elit massa, tempor eget arcu quis, convallis facilisis augue. Aenean sed dolor arcu. Mauris leo purus, venenatis sit amet neque at, cursus convallis tortor. Curabitur porttitor blandit tortor, ut faucibus urna imperdiet tempor.</string>
+    <string name="msg_info_snack">Info snack!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="msg_by">By pamobo0609</string>
+    <string name="user_photo">User photo</string>
+</resources>
