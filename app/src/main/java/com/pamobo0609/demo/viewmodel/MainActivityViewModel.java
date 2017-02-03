@@ -12,6 +12,7 @@ import com.pamobo0609.demo.util.ViewModelContact;
 import com.pamobo0609.demo.view.activity.CollapsingTabsActivity;
 import com.pamobo0609.demo.view.activity.CollapsingToolbarActivity;
 import com.pamobo0609.demo.view.activity.MainActivity;
+import com.pamobo0609.demo.view.activity.SwipeToDismissActivity;
 
 /**
  * @author Accenture - <a href="mailto:jose.p.monge.bonilla@accenture.com">Jose Pablo Monge Bonilla</a>
@@ -102,5 +103,16 @@ public class MainActivityViewModel implements ViewModelContact.ViewModel {
     public void goToCollapsingTabs(View v) {
         Intent goToTabs = new Intent(mContext, CollapsingTabsActivity.class);
         mContext.startActivity(goToTabs);
+    }
+
+    /**
+     * <h1>GoToSwipeToDismiss</h1>
+     * <p>Takes the user to the {@link com.pamobo0609.demo.view.activity.SwipeToDismissActivity}</p>
+     *
+     * @param v the caller view
+     */
+    public void goToSwipeToDismiss(View v) {
+        Intent goToSwipe = new Intent(mContext, SwipeToDismissActivity.class);
+        mContext.startActivity(goToSwipe);
     }
 }

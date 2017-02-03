@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.activity.CollapsingToolbarActivity" />
-        <activity android:name=".view.activity.CollapsingTabsActivity"></activity>
+        <activity android:name=".view.activity.CollapsingTabsActivity" />
+        <activity android:name=".view.activity.SwipeToDismissActivity"></activity>
     </application>
 
 </manifest>

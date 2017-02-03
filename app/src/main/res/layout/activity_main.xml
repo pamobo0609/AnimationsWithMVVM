@@ -41,6 +41,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/btn_collapsing_with_tabs"
+                android:onClick="@{mViewModel::goToSwipeToDismiss}"
                 android:text="@string/btn_swipe_to_dismiss_example" />
         </RelativeLayout>
     </android.support.design.widget.CoordinatorLayout>
